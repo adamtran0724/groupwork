@@ -1,14 +1,12 @@
 body {
 	font-size: 2em;
 	text-align: center;
-}
-
-tr {
-	padding-bottom: 10px;
+	border: solid 5px;
 }
 
 #red {
 	background-color: red;
+
 }
 
 #blue {
@@ -32,3 +30,17 @@ tr {
 #aqua {
 	background-color: aqua;
 }
+
+#april{
+	padding-left: 20%;
+}
+
+.sun-sat{
+	border: bold 1px;
+}
+
+@media only screen and (max-width: 900px) {
+	tr {
+	  background-color: lightblue;
+	}
+  }
